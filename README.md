@@ -1,10 +1,10 @@
-# Azure Webinar example
+# Based on Vaadin Azure Webinar example
 
-This is a simple full stack Azure example, which connects to a SQL Server database running in Azure, with the example data set. The Spring Boot application connects to that database using Spring Data's repository helpers and a Vaadin UI lets end users view and modify the data.
+This is a simple full stack MS SQLServer2012 example, which connects to a SQL Server database running in locally with Windows Authentication, with the example data set (used ddl-auto:create) The Spring Boot application connects to that database using Spring Data's repository helpers and a Vaadin UI lets end users view and modify the data.
 
 If you want to try out this application:
 
- * Create SQL Server in azure, load the "Sample" data set which is used by this example
+ * Install SQL Server or connect to an existing one you have access to, load the "Sample" data set which is used by this example
  * Change the connection string parameters (your server, user and password are different)
- * (Optional, for local running/development) In Azure web console, open Firewall for your database and use "Add client IP" to allow connections from your current IP address
+ * (Optional, for local running/development) make sure TCP/IP connections are setup and enabled so you can connect
  
